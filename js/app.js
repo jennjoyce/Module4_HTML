@@ -17,23 +17,23 @@ document.write(today);
 var nickName = prompt('Howdy! Please enter your favorite nickname.');
 alert('Greetings, ' + nickName + ' click "ok" to participate in a color quiz.');
 
-var favColor = prompt('What one of these is your favorite color? Red, Blue, Green, or Pink');
+var favColor = prompt('What one of these is your favorite color? Red, Blue, Green, Pink, or Brown');
 
 //variable declaration for the greeting.
 var greeting;
 
-if(favColor = Red || red) {
-    greeting = 'Me too! ' + nickName;
-} else if (favColor = Blue || blue) {
+if(favColor == 'Red' || favColor == 'red') {
+    greeting = 'Red is my favorite color too, ' + nickName;
+} else if (favColor == 'Blue' || favColor == 'blue') {
    greeting ='I do love the color of a blue sky, ' + nickName;
-} else if (favColor = Green || green) {
+} else if (favColor == 'Green' || favColor == 'green') {
    greeting = 'Green is a great color, ' + nickName;
-} else if (favColor = Pink || pink) {
+} else if (favColor == 'Pink' || favColor == 'pink') {
    greeting = 'You have good taste, ' + nickName;
-} else if (favColor = Brown || brown) {
+} else if (favColor == 'Brown' || favColor == 'brown') {
     greeting = 'Brown is a sad choice, ' + nickName;
 } else {
-    'Try again!';
+    greeting = 'Try again!';
 }
-document.write('<h1 style="color:yellow">' + greeting + '</h1>');
+document.write('<h1 style="color:red">' + greeting + '</h1>');
 

@@ -21,7 +21,8 @@
      height: 200px;
  }
  
- 
+ A:hover { COLOR: blue; TEXT-DECORATION: none; font-weight: none }
+
  header a {
      color: white;
      font-size: 24px;
@@ -56,7 +57,10 @@
  
  a:link {text-decoration: underline;}
 
- 
+ button { 
+     margin: 25px;
+     color: blue;
+ }
  
  h2{
     color: white; 
