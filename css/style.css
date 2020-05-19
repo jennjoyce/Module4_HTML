@@ -28,6 +28,9 @@
      font-size: 24px;
  }
  
+ #unicornQuiz {
+     color: pink;
+ }
  h1 {
     padding: 25px;
     text-align: center;
@@ -37,6 +40,8 @@
    
  }
  
+ 
+
  nav {
  clear: both;
  height: 100px;
