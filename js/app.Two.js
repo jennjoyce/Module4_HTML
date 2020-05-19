@@ -2,10 +2,6 @@
 console.log('This file is connected and ready to run.');
 
 
-
-
-
-
 var userName = prompt('Please enter your first name.');
 alert('Hello, ' + userName + ' click OK to proceed.');
 
