@@ -11,7 +11,7 @@ var seeMore = prompt('Would you like to see more pictures?');
 var greeting;
 
 if(seeMore == 'Yes' || seeMore =='yes'){
-    greeting = 'View more here at:    www.fotojenninc.com, ' + userName;
+    greeting = 'View more here at: www.fotojenninc.com, ' + userName;
 } else if (seeMore == 'No' || seeMore =='no'){
    greeting = 'Ok.Thanks for visiting, ' + userName;
 } else {

@@ -1,10 +1,10 @@
-function myFunction() {
+function unicornFunction() {
     var txt;
-    var r = confirm("If unicorns exist, click 'OK'.\nIf unicorns don't exist, click 'Cancel.' ")
+    var r = confirm("Email me at: fotojenninc@gmail.com")
     if (r == true) {
-      txt = "Sorry, unicorns don't exist!";
+      txt = "Thanks for visiting my site!";
     } else {
-      txt = "You pressed Cancel! You are correct! Unicorns don't exist.";
+      txt = "Thanks for visitig my site!";
     }
     document.getElementById("unicornButton").innerHTML = txt;
 }
